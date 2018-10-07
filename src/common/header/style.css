@@ -1,0 +1,43 @@
+.header {
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+.site_name {
+	min-height: 80px;
+	margin-left: 20px;
+	margin-top: 35px;
+	float: left;
+}
+.logo {
+	float: left;
+	margin-top: 15px;
+}
+.logo img {
+	width: 80px;
+	border-top: 1px solid gainsboro;
+	border-radius: 275px;
+}
+.author {
+	font: bold 30px/1.12 "Times New Roman", Georgia, Times, sans-serif;
+  color: #555;
+}
+.desc {
+	margin: .2em 0 0;
+  color: #999;
+}
+
+.nav_menu {
+	margin: 45px 0 15px 0px;
+	text-align: right;
+}
+.nav_menu a {
+	display: inline-block;
+	padding: 3px 20px 3px;
+	line-height: 30px;
+	color: #444;
+	font-size: 15px;
+	border: 1px solid transparent;
+}
+.nav_menu a.current {
+ 	border-bottom: 1px solid #2196f3;
+}

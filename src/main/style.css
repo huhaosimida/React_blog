@@ -1,0 +1,126 @@
+.content_container {
+  padding-right: 50px;
+  padding-top: 40px;
+}
+/*文章概括样式*/
+.post {
+  padding: 25px 0 15px;
+}
+.post .post-title {
+  margin: 0;
+  color: #444;
+  text-align: left;
+  font: bold 23px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+}
+.post .post-title a {
+  color: #444;
+}
+.post .post-meta {
+  padding: 0;
+  margin: 15px 0 0;
+  color: #6E7173;
+  float: left;
+  display: inline;
+  text-indent: .15em;
+}
+.post .post-content {
+  clear: left;
+  font-size: 15px;
+  line-height: 1.77;
+  color: #444;
+  padding-top: 15px;
+  text-align: justify;
+  text-justify: distribute;
+  word-break: normal;
+}
+.readmore a {
+  font-size: 14px;
+  color: #444;
+  margin: -10px 0;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  float: right;
+}
+/* 资源组件样式 */
+.post-archive {
+  font-size: 15px;
+  line-height: 2;
+  padding-bottom: .8em;
+}
+.post-archive .date {
+  padding-right: .7em;
+}
+
+/*页码样式*/
+.page-navigator {
+  border-top: 1px solid #ddd;
+  list-style: none;
+  margin-top: 25px;
+  padding: 25px 0 0;
+  font-size: 14px;
+  text-align: center;
+}
+.page-navigator a.prev, .page-navigator span.prev {
+  float: left;
+}
+.page-navigator .page-number {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+}
+.page-navigator a, .page-navigator span {
+  display: inline-block;
+  line-height: 25px;
+  padding: 5px 9px;
+  border: 1px solid #DDD;
+  text-align: center;
+}
+/*a, button.submit {
+  color: #6E7173;
+  text-decoration: none;
+  transition: all .1s ease-in;
+}*/
+.page-navigator .current {
+  background: #F8F8F8;
+  border-bottom-color: #D26911;
+}
+.page-navigator a.next, .page-navigator span.next {
+  float: right;
+}
+
+/*右边栏样式*/
+.sidebar {
+  padding-left: 35px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  word-wrap: break-word;
+  width: 257px;
+}
+.sidebar .widget {
+  margin-bottom: 30px;
+}
+.sidebar .widget input {
+  padding: 7px 11px 7px 28px;
+  line-height: 16px;
+  border: 1px solid #bbb;
+  width: 65%;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.sidebar .widget .widget-title {
+  color: #6E7173;
+  line-height: 2.7;
+  margin-top: 0;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  font-weight: normal;
+}
+.sidebar .widget ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar .widget ul li {
+  margin: 5px 0;
+  line-height: 1.5;
+}

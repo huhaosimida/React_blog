@@ -1,0 +1,24 @@
+body {
+    background-color: #FFF;
+    color: #444;
+    font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px; 
+  }
+  a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color:inherit;
+  }
+  div {
+      box-sizing: border-box;
+  }
+  .icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ .border-1px	{
+	border: 1px solid #ddd;
+}
