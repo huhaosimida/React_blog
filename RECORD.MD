@@ -61,4 +61,11 @@ src/common/header/store/index （如果不写/index，也是加载的相同路�
 	<Route path='/' component={Header}></Route>
 
 #### Route中exact属性是精确匹配
-<Route path='/about' exact component={About}></Route>
+	<Route path='/about' exact component={About}></Route>
+
+### 2018/10/8-2018/10/
+- 模拟数据进行AJAX请求
+- 异步操作的代码拆分与优化
+- 初步编写模拟文章跳转/页码跳转的路由
+- 登陆/注册组件的初步编写
+- 登陆

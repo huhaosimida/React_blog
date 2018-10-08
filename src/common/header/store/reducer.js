@@ -10,7 +10,6 @@ const defaultState = fromJS({
 export default (state = defaultState, action) => {
 	switch(action.type) {
 		case constants.NAV_CLICK :
-			console.log('bbb');
 			return state.set('active',false);
 		default :
 			return state;

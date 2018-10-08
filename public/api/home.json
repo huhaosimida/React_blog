@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "articlesList": [{
+      "id": 1,
+      "title": "单页应用和单页应用（vue）的比较",
+      "time": "2018/10/8",
+      "desc": "多页应用：不断请求html网页。单页应用：刚开始请求一次，后面通过js渲染不断将dom元素从页面上删除和添加.单页应用"
+    },{
+      "id": 2,
+      "title": "单页应用和单页应用（vue）的比较",
+      "time": "2018/10/8",
+      "desc": "多页应用：不断请求html网页。单页应用：刚开始请求一次，后面通过js渲染不断将dom元素从页面上删除和添加"
+    },{
+      "id": 3,
+      "title": "UI自动化测试--Puppeteer再探",
+      "time": "2018/10/7",
+      "desc": "自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试自动化测试"
+    }],
+    "category":[{
+      "id":1,
+      "title": "BOM、DOM"
+    },{
+      "id": 2,
+      "title": "HTML"
+    }],
+    "linkList": [{
+      "id": 1,
+      "url": "https://www.baidu.com/",
+      "title": "百度"
+    },{
+      "id": 2,
+      "url": "https://www.QQ.com",
+      "title": "QQ"
+    }],
+    "articlesdetail": [{
+      "id": 1,
+      "title": "高级爬虫--Puppeteer初探",
+      "time": "Aug 16, 2017",
+      "content": "Puppeteer是一个node库，他提供了一组用来操纵Chrome的API，理论上使用它可以做任何Chrome可以做的事"
+    }]
+  }
+}

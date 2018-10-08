@@ -1,5 +1,5 @@
-import * as constants from './constants';
+// import * as constants from './constants';
 
-export const navClick = () => ({
-	type: constants.NAV_CLICK
-});
+// export const navClick = () => ({
+// 	type: constants.NAV_CLICK
+// });

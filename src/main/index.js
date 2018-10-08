@@ -1,14 +1,16 @@
 import React ,{Component} from 'react';
 import {Route} from 'react-router-dom';
+import {connect} from 'react-redux';
+import {actionCreators} from './store';
 
-import ArticlesList from './articlesList';
-import Articlesdetail from './articlesdetail';
-import Sidebar from './sidebar';
-import Catalog from './catalog';
-import Resources from './resources';
-import About from './about';
-import Login from './login';
-import Register from './register';
+import ArticlesList from './home/articlesList';
+import Articlesdetail from './home/articlesdetail';
+import Sidebar from './home/sidebar';
+import Catalog from './home/catalog';
+import Resources from './home/resources';
+import About from './home/about';
+import Login from './home/login';
+import Register from './home/register';
 import './style.css';
 
 class Main extends Component {
@@ -17,7 +19,7 @@ class Main extends Component {
 		return (			
 			<div className="row">
 				<Route path='/' exact component={ArticlesList}></Route>
-				<Route path='/articlesdetail' exact component={Articlesdetail}></Route>
+				<Route path='/articlesdetail/:id' exact component={Articlesdetail}></Route>
 				<Route path='/catalog' exact component={Catalog}></Route>
 				<Route path='/resources' exact component={Resources}></Route>
 				<Route path='/about' exact component={About}></Route>
@@ -27,9 +29,16 @@ class Main extends Component {
 			</div>		
 		)
 	}
-
+	componentDidMount() {
+		this.props.getInfo();
+	}
 }
 
+const mapDisPatchToProps = (dispatch) => ({
+	getInfo() {
+		const action =actionCreators.getHomeInfo();
+		dispatch(action);
+	}
+});
 
-
-export default Main;
+export default connect(null,mapDisPatchToProps)(Main);

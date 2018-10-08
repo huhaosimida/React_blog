@@ -19,7 +19,7 @@ class App extends Component {
         <BrowserRouter> 
             <div className="container">
               <Route path='/' component={Header}></Route>
-              <Main></Main>    
+              <Route path='/' component={Main}></Route>   
               <Footer></Footer>
             </div>
         </BrowserRouter>    

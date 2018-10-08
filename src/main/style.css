@@ -20,7 +20,7 @@
   margin: 15px 0 0;
   color: #6E7173;
   float: left;
-  display: inline;
+  /* display: inline; */
   text-indent: .15em;
 }
 .post .post-content {
@@ -36,7 +36,7 @@
 .readmore a {
   font-size: 14px;
   color: #444;
-  margin: -10px 0;
+  margin: 5px 0;
   padding: 5px 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -123,4 +123,34 @@
 .sidebar .widget ul li {
   margin: 5px 0;
   line-height: 1.5;
+}
+
+
+/* 登陆注册页面样式 */
+.LoginBox {
+	height: 220px;
+	margin: 80px auto;
+	padding-top: 20px;
+	background: #eee;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+input {
+  display: block;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	color: #777;
+	margin: 10px auto;
+}
+button {
+  display: block;
+  width: 220px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	background: #3194d0;
+	border-radius: 15px;
+	margin: 10px auto;
+	text-align: center;
 }
